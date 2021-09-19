@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap");
+
+:root {
+  --primary-button-download: #4d96a9;
+  --primary-button-info: #855fb1;
+  --primary-typography: #28283d;
+  --primary-paragraph: #87879d;
+  --primary-button-dowload-span: #8fe3f9;
+  --primary-button-download-hover: #71c0d4;
+  --primary-button-info-span: #d9b8ff;
+  --primary-button-info-hover: #b18bdd;
+  --primary-body-background: #fafafa;
+  --primary-border-vertical: #d8d8d8;
+  --primary-font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  font-family: var(--primary-font-family);
+  display: flex;
+  justify-content: center;
+}
+
+#main {
+  width: 1440px;
+  height: 1895px;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--primary-body-background);
+}
+
+#logo {
+  width: 119px;
+  height: 28px;
+  position: absolute;
+  top: 80px;
+  left: 661px;
+}
+
+#group-chat {
+  width: 1504px;
+  height: 358px;
+  display: flex;
+  flex-direction: row;
+}
+
+#hero-left {
+  position: absolute;
+  top: 172px;
+  left: -32px;
+}
+
+#hero-right {
+  position: absolute;
+  top: 227px;
+  left: 1078px;
+}
+
+#group-chat-heading {
+  position: absolute;
+  top: 219px;
+  left: 450px;
+  width: 540px;
+  height: 304px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#group-chat-h1 {
+  width: 445px;
+  height: 128px;
+}
+
+#group-chat-h1 h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 64px;
+  line-height: 64px;
+  color: var(--primary-typography);
+  text-align: center;
+}
+
+#group-chat-paragraph {
+  width: 540px;
+  height: 52px;
+  margin-top: 34px;
+  margin-bottom: 32px;
+}
+
+#group-chat-paragraph p {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 26px;
+  color: var(--primary-paragraph);
+  text-align: center;
+}
+
+#group-chat-buttons {
+  width: 348px;
+  height: 58px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#download-btn {
+  width: 193px;
+  height: 58px;
+  border: 0;
+  border-radius: 29px;
+  background-color: var(--primary-button-download);
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 26px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#download-btn span {
+  color: var(--primary-button-dowload-span);
+}
+
+#download-btn:hover {
+  background-color: var(--primary-button-download-hover);
+}
+
+#info-btn {
+  width: 139px;
+  height: 58px;
+  border: 0;
+  border-radius: 29px;
+  background-color: var(--primary-button-info);
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 26px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#info-btn:hover {
+  background-color: var(--primary-button-info-hover);
+}
+
+#divider {
+  width: 56px;
+  height: 140px;
+  position: absolute;
+  top: 637px;
+  left: 692px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#border-vertical {
+  border-left: 1px solid var(--primary-border-vertical);
+  height: 84px;
+}
+
+#border-round {
+  width: 56px;
+  height: 56px;
+  border-radius: 29px;
+  border: 1px solid rgba(135, 135, 157, 0.25);
+  text-align: center;
+}
+
+#border-round p {
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 26px;
+  color: var(--primary-paragraph);
+  opacity: 1;
+}
