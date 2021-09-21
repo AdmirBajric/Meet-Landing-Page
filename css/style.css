@@ -8,7 +8,7 @@
   --primary-button-dowload-span: #8fe3f9;
   --primary-button-download-hover: #71c0d4;
   --primary-button-info-span: #d9b8ff;
-  --primary-button-info-hover: #b18bdd;
+  --primary-button-info-hover: #b188dd;
   --primary-body-background: #fafafa;
   --primary-border-vertical: #d8d8d8;
   --primary-font-family: "Red Hat Display", sans-serif;
@@ -17,7 +17,10 @@
 body {
   font-family: var(--primary-font-family);
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 #main {
@@ -202,6 +205,7 @@ body {
   left: 450px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -223,4 +227,114 @@ body {
   padding: 0;
   width: 445px;
   height: 88px;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 44px;
+  color: var(--primary-typography);
+  text-align: center;
+}
+
+#info p:last-child {
+  margin: 0;
+  padding: 0;
+  width: 540px;
+  height: 78px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 500;
+  color: var(--primary-paragraph);
+  text-align: center;
+}
+
+#divider-2 {
+  width: 56px;
+  height: 140px;
+  position: absolute;
+  top: 1475px;
+  left: 692px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+#border-round {
+  background-color: var(--primary-body-background);
+}
+
+#footer {
+  width: 1440px;
+  height: 308px;
+  position: absolute;
+  top: 1587px;
+}
+
+#footer img {
+  width: 1440px;
+  height: 308px;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 10.45%;
+}
+
+#mask {
+  width: 1440px;
+  height: 308px;
+  background-color: rgba(77, 150, 169, 1);
+  position: relative;
+}
+
+#footer-info {
+  width: 1110px;
+  height: 88px;
+  position: absolute;
+  top: 116px;
+  left: 165px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#footer-info h2 {
+  margin: 0;
+  padding: 0;
+  width: 350px;
+  height: 88px;
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 700;
+  color: var(--primary-body-background);
+}
+
+#footer-info p {
+  margin: 0;
+  padding: 0;
+  width: 350px;
+  height: 78px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 500;
+  color: var(--primary-body-background);
+}
+
+#footer-info button {
+  width: 193px;
+  height: 58px;
+  border: 0;
+  border-radius: 29px;
+  background-color: var(--primary-button-info);
+  color: #fff;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#footer-info button span {
+  color: var(--primary-button-info-span);
+}
+
+#footer-info button:hover {
+  background-color: var(--primary-button-info-hover);
 }
