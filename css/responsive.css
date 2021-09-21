@@ -1,12 +1,58 @@
 @media only screen and (max-width: 600px) {
-  #main {
-    background-color: green;
+  body {
+    width: 100%;
+    height: 100%;
   }
-}
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media (min-width: 600px) and (max-width: 979px) {
   #main {
-    background-color: red;
+    width: 375px;
+    height: 2215px;
+  }
+
+  #logo {
+    width: 119px;
+    height: 28px;
+    position: absolute;
+    top: 48px;
+    left: 128px;
+  }
+
+  #group-chat {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #hero-left {
+    width: 199px;
+    height: 153px;
+    position: absolute;
+    top: 130px;
+    left: -20px;
+  }
+
+  #hero-right {
+    width: 199px;
+    height: 153px;
+    position: absolute;
+    top: 130px;
+    left: 215px;
+  }
+
+  #group-chat-heading {
+    position: absolute;
+    top: 331px;
+    left: 44px;
+    width: 327px;
+  }
+
+  #group-chat-h1 {
+    width: 327px;
+    height: 88px;
+  }
+
+  #group-chat-h1 h1 {
+    font-size: 40px;
+    line-height: 44px;
   }
 }
