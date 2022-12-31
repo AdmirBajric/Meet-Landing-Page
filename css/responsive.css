@@ -36,13 +36,13 @@
     height: 153px;
     position: absolute;
     top: 130px;
-    left: 215px;
+    left: 195px;
   }
 
   #group-chat-heading {
     position: absolute;
     top: 331px;
-    left: 44px;
+    left: 24px;
     width: 327px;
   }
 
@@ -52,7 +52,79 @@
   }
 
   #group-chat-h1 h1 {
-    font-size: 40px;
+    font-size: 45px;
     line-height: 44px;
+  }
+
+  #group-chat-paragraph {
+    width: 327px;
+    height: 88px;
+  }
+
+  #group-chat-paragraph p {
+    font-size: 16px;
+  }
+
+  #group-chat-buttons {
+    width: 327px;
+    height: 132px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #download-btn {
+    margin-bottom: 16px;
+  }
+
+  #divider {
+    top: 749px;
+    left: 160px;
+  }
+
+  #images {
+    width: 327px;
+    height: 310px;
+    position: absolute;
+    top: 953px;
+    left: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section-img {
+    width: 151px;
+    height: 143px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+  }
+
+  #info {
+    width: 327px;
+    height: 284px;
+    position: absolute;
+    top: 1327px;
+    left: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #info p:first-of-type {
+    letter-spacing: 3.5px;
+  }
+
+  #info h2 {
+    width: 327px;
+    height: 27px;
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  #info p:last-child {
+    width: 327px;
+    height: 130px;
+    font-size: 16px;
   }
 }
